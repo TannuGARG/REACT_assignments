@@ -1,0 +1,24 @@
+@media only screen and (min-width:1024px){
+    .BOX1,.BOX2{
+        display: inline-block;
+        margin: 20px 20px;
+        background-color: yellow;
+        height: 200px;
+        width: 46%;
+
+    }
+    .BOX3{
+        margin: 20px 25px 20px 20px;
+        background-color:tomato;
+        height: 200px;
+
+    }
+    .BOX4,.BOX5,.BOX6{
+        display: inline-block;
+        background-color: violet;
+        height: 100px;
+        width: 29%;
+        margin: 20px 20px 20px 22px;
+    }
+    
+}
