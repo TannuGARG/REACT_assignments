@@ -3,7 +3,7 @@
     margin: 0px 5px;
 }
 
-.Box1{
+.customer-info{
     width:auto;
     height: 100px;
     background-color: #ddd8dd;
@@ -31,7 +31,7 @@
     margin: 20px 5px;
 
 }
-.Box3{
+.order-info{
     width:auto;
     height: 100px;
     display: flex;
@@ -46,7 +46,7 @@
     border-radius: 50%;
     display: inline-block;
 }
-.Box4{
+.product-list{
     display:flex;
     flex-direction: row;
     width: auto;
@@ -61,7 +61,7 @@
     margin-top: 70px;
     border-color:orangered;
 }
-.Box4 img{
+.product-list img{
     height: 150px;
     width: 150px;
 }
