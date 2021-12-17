@@ -16,14 +16,11 @@ const order_detail={
   "Status": "In Progress",
   "Door" : "Mark",
   "Time":"10:30(25-05-2021)",
-  "image":"https://www.w3schools.com/howto/img_avatar.png"
 }
 
 function App() {
   return (
     <div className="site-container">
-    {/* Start Your code here */}
-    {/* <img src={"https://www.w3schools.com/howto/img_avatar.png"} className="profile" alt="profileimg" /> */}
     <Profile employee={profile_details} order={order_detail}  />
     </div>
   );

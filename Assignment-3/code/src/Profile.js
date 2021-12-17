@@ -41,6 +41,7 @@ export default class Profile extends React.Component{
                     </div>
 
                 </div>
+                {/* forth box */}
                 <div className="Box4">
                     <button type="checkbox" className="checkbox"> </button>
                     <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Profe-photo" className="Photo"></img>
