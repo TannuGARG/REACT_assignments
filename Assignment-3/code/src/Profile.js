@@ -8,10 +8,16 @@ export default class Profile extends React.Component{
                 {/* first box */}
                 <div className="customer-info">
 
+                    <div className="box15">{this.props.sign}</div>
+                    <div id="box14">
+                        <div className="box11"><strong>{this.props.employee.Name}</strong></div>
+                        <div className="box12">{this.props.employee.EmployeeID}</div>
+                    </div>
+                    <div>
+                        <button className="box13">Print</button>
+                    </div>
+                   
                     
-                    <div className="box11"><strong>{this.props.employee.Name}</strong></div>
-                    <div className="box12">{this.props.employee.EmployeeID}</div>
-                    <button className="box13">Print</button>
                    
 
                 </div>
@@ -43,7 +49,6 @@ export default class Profile extends React.Component{
 
                 </div>
                 {/* forth box */}
-                {/* {last block} */}
                 <div className="product-list">
                     <button type="checkbox" className="checkbox"> </button>
                     <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Profile" className="dev"/>
@@ -51,6 +56,7 @@ export default class Profile extends React.Component{
                         <div className="Box4-1"><strong>Boltaart Bosbessen</strong></div>
                         <div>Overheerlijke Boltaart met Bosbessen de ud keuken ven de askjcjvcd</div>
                     </div> 
+                    <div className="box16">{this.props.sign2}</div>
                 </div>
                 
 

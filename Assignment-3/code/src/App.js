@@ -3,7 +3,8 @@ import './App.css';
 import Profile from './Profile';
 
 
-// var arrow="<"
+var arrow="<";
+var arrow2=">";
 
 const profile_details={
   "Name":"Tamanna Garg",
@@ -21,7 +22,7 @@ const order_detail={
 function App() {
   return (
     <div className="site-container">
-    <Profile employee={profile_details} order={order_detail}  />
+    <Profile employee={profile_details} order={order_detail} sign={arrow} sign2={arrow2} />
     </div>
   );
 }
