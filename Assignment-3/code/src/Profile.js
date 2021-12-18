@@ -43,7 +43,7 @@ export default class Profile extends React.Component{
                     </div>
                     <div className="Box3-1">
                         <div className="Box3-1-1"><strong>Time</strong></div>
-                        <span></span>{this.props.order.Time}
+                        {this.props.order.Time}
                         
                     </div>
 
@@ -55,7 +55,10 @@ export default class Profile extends React.Component{
                     <div>
                         <div className="Box4-1"><strong>Boltaart Bosbessen</strong></div>
                         <div>Overheerlijke Boltaart met Bosbessen de ud keuken ven de askjcjvcd</div>
-                    </div> 
+                        
+                    </div>
+                   
+                     
                     <div className="box16">{this.props.sign2}</div>
                 </div>
                 

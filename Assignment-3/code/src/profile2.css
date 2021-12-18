@@ -5,7 +5,7 @@
 
 .customer-info{
     width:auto;
-    height: 100px;
+    height: 80px;
     background-color: #ddd8dd;
     display: flex;
     flex-direction: row;
@@ -16,6 +16,7 @@
     text-align: center; */
 .box15{
     font-size: 20px;
+    margin-top: 20px;
    
 }
     
@@ -28,12 +29,13 @@
     background-color: black;
     color: white;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 
 .Box2{
     width:auto;
-    height: 100px;
+    height: 150px;
     border: solid 1px #ddd8dd ;
     margin: 20px 5px;
 
@@ -75,7 +77,9 @@
 }
 .box16{
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 70px;
     margin-left: 500px;
 }
-
+.tani{
+    margin: 0 10px 0 10px;
+}
