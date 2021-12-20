@@ -1,0 +1,23 @@
+
+
+@media only screen and (min-width: 320px) and (max-width:727px){
+    .BOX1,.BOX2 {
+        background-color: yellow;
+        margin: 20px 20px;
+        height: 100px;
+    }
+    .BOX3{
+        background-color: tomato;
+        margin: 20px 20px;
+        height: 200px;
+    }
+    .BOX4,.BOX5,.BOX6{
+        background-color:blueviolet;
+        margin: 20px 20px;
+        height: 100px;
+
+    }
+    
+    
+}
+ 
